@@ -134,7 +134,7 @@ class MusicPlayList extends Component {
           </ArtistName>
         </ArtistBg>
         <PlayListContainer>
-          <PlayListHeading>Song Playlist</PlayListHeading>
+          <PlayListHeading>Songs Playlist</PlayListHeading>
           <SearchInput
             type="search"
             value={searchInput}

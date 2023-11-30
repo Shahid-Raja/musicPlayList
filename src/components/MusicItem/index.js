@@ -23,12 +23,11 @@ const MusicItem = props => {
   return (
     <MusicListItem>
       <TrackInfoContainer>
-        <MusicTrackImage src={imageUrl} alt="track">
-          <NameGenreContainer>
-            <Name>{name}</Name>
-            <Genre>{genre}</Genre>
-          </NameGenreContainer>
-        </MusicTrackImage>
+        <MusicTrackImage src={imageUrl} alt="track" />
+        <NameGenreContainer>
+          <Name>{name}</Name>
+          <Genre>{genre}</Genre>
+        </NameGenreContainer>
       </TrackInfoContainer>
       <DurationDeleteContainer>
         <Duration>{duration}</Duration>
